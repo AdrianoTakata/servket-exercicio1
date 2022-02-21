@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Cadastro de Cliente </h1>
+    <form action="cliente" method="post">
+        <label> Nome:
+            <input type="text" name="nomeCliente">
+        </label>
+        <label> E-mail:
+            <input type="email" name="emailCliente">
+        </label>
+        <label> Conta:
+            <input type="text" name="contaCliente">
+        </label>
+        <label> Agência:
+            <input type="text" name="agenciaCliente">
+        </label>
+        <button type="submit"> Cadastrar </button>
+    </form>
+</body>
+</html>
